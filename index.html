@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <body style="background: linear-gradient(to right, #091014, #0e161c);">
+    <head>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    </head>
+    <style>
+    /*                   main color:        #1bfcff                            */
+    .under {
+      justify-content: center;
+      align-items: center;
+      display: flex;
+    }
+    .middle {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+      html, body {
+        font-family: "Montserrat", sans-serif;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        color: white;
+      }
+      .box-container {
+        display: flex;
+        gap: 20px; /* spacing between boxes */
+        margin-top: 20px;
+        flex-wrap: wrap; /* allows them to wrap on smaller screens */
+        justify-content: center;
+        flex-direction: row;
+      }
+      .box {
+        padding: 20px;
+        height: 190px;
+        width: 290px;
+        flex-wrap: wrap;
+        background-color: #030f14;
+        border: 2px solid;
+        border-color: #1bfcff ;
+        border-radius: 15px;
+        justify-content: center;
+        flex-direction: row;
+        transition: transform 0.3s ease;
+
+        
+      }
+      .box:hover {
+        transform: scale(1.1); /* makes it grow 5% in all directions */
+        z-index: 1; /* so it floats above nearby elements */
+      }
+      button {
+        cursor: pointer;
+        border: 2px solid cyan;
+        border-radius: 10px;
+        transition: transform 0.3s ease, background-color 0.3s ease;
+        background-color:#030f14
+      }
+      button:hover {
+        transform: scale(1.2);
+        background-color:#092c2e
+        
+      }
+      
+    </style>
+
+    <div style="line-height: 1;font-size: 25px"class="under">
+      <h1>Welcome to  <span style="color: #1bfcff ">Delta</span></h1>
+    </div>
+    <div style="margin-top: -30px;font-size: 12px;color: rgba(255, 255, 255, 0.3);line-height: 1">
+      <h2>Experience a whole 'nother world using the most trashest executor.</h2>
+    </div>
+    <h2>Download Delta today! Completely vulnerable to <span style="color:red">Bans!</span></span></h2>
+    <div class="">
+      <button onclick="iphone()"style=";width: 50px;height: 50px"><img style=";filter: brightness(0) saturate(100%) invert(89%) sepia(36%) saturate(3052%) hue-rotate(113deg) brightness(106%) contrast(102%);width: 20px"src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Apple_logo_white.svg/1724px-Apple_logo_white.svg.png"></button>
+      <button onclick="android()"style=";width: 50px;height: 50px"><img style=";filter: brightness(0) saturate(100%) invert(89%) sepia(36%) saturate(3052%) hue-rotate(113deg) brightness(106%) contrast(102%);width: 37px"src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Android_robot_head.svg/2560px-Android_robot_head.svg.png"></button>
+    </div>
+    <brr>
+      <br>
+    </brr>
+    <h2 style="line-height: 1;color: #1bfcff">What we promise to not give you!</h2>
+    <div class="box-container">
+      <div class="box">
+      <h2 style="color:#1bfcff">Performance</h2>
+      <p>Performance? <span style="color:red">Never heard of it.</span> We do not care if your device is trash, or the executor cant run on your device, we dont promise any performance.</p>
+    </div>
+    <div class="box">
+      <h2 style="color:#1bfcff">Vulnerability</h2>
+      <p>Vulnerable to viruses on your device? Getting banned off Roblox? Easily detectable? Thats too sad.</p>
+    </div>
+    <div class="box">
+      <h2 style="color:#1bfcff">User-Friendly</h2>
+      <p>Our executor serves no user friendly! Want to save scripts? Go through the hardest puzzle of your life! Want to see scripts? Manually type out their link!</p>
+    </div>
+    </div>
+    <script>
+      function android() {
+        window.open("https://deltaexecutor.filesadda.com/Delta-662.536-01.ipa", "_blank")
+      }
+      function iphone() {
+        window.open("https://deltaexecutor.filesadda.com/Delta-v2.667.apk", "_blank")
+      }
+    </script>
+    <p>© All rights not reserved | Delta Team</p>
+  </body>
+</html>
